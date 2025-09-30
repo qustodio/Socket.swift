@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -52,18 +52,14 @@
 /* Begin PBXFrameworksBuildPhase section */
 		9DF883471F0CCAB60060C11F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9DF883511F0CCAB60060C11F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				9DF883551F0CCAB60060C11F /* SocketSwift.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -126,11 +122,9 @@
 /* Begin PBXHeadersBuildPhase section */
 		9DF883481F0CCAB60060C11F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				9DF8835C1F0CCAB60060C11F /* SocketSwift.h in Headers */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -145,8 +139,6 @@
 				9DF883491F0CCAB60060C11F /* Resources */,
 			);
 			buildRules = (
-			);
-			dependencies = (
 			);
 			name = SocketSwift;
 			productName = SocketSwift;
@@ -195,7 +187,6 @@
 				};
 			};
 			buildConfigurationList = 9DF883451F0CCAB60060C11F /* Build configuration list for PBXProject "SocketSwift" */;
-			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -203,6 +194,7 @@
 				en,
 			);
 			mainGroup = 9DF883411F0CCAB60060C11F;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = 9DF8834C1F0CCAB60060C11F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -216,25 +208,20 @@
 /* Begin PBXResourcesBuildPhase section */
 		9DF883491F0CCAB60060C11F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9DF883521F0CCAB60060C11F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				9DC115852054392000BDF181 /* Socket.swift.pfx in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9DF883461F0CCAB60060C11F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				9D81A4581F0F978F00EAC293 /* Family.swift in Sources */,
 				9D81A4561F0F975C00EAC293 /* Option.swift in Sources */,
@@ -245,15 +232,12 @@
 				9DC60D451FC60E8400CFDF26 /* TLS.swift in Sources */,
 				9D45FE4F1F0F80FB00079B8A /* Type.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9DF883501F0CCAB60060C11F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				9DF8835A1F0CCAB60060C11F /* SocketSwiftTests.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -266,7 +250,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9DF8835D1F0CCAB60060C11F /* Debug */ = {
+		9DF8835D1F0CCAB60060C11F /* Debug configuration for PBXProject "SocketSwift" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,7 +319,7 @@
 			};
 			name = Debug;
 		};
-		9DF8835E1F0CCAB60060C11F /* Release */ = {
+		9DF8835E1F0CCAB60060C11F /* Release configuration for PBXProject "SocketSwift" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,9 +382,10 @@
 			};
 			name = Release;
 		};
-		9DF883601F0CCAB60060C11F /* Debug */ = {
+		9DF883601F0CCAB60060C11F /* Debug configuration for PBXNativeTarget "SocketSwift" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -419,7 +404,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 2.4.1;
+				MARKETING_VERSION = 2.4.2;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = com.biatoms.SocketSwift;
@@ -434,9 +419,10 @@
 			};
 			name = Debug;
 		};
-		9DF883611F0CCAB60060C11F /* Release */ = {
+		9DF883611F0CCAB60060C11F /* Release configuration for PBXNativeTarget "SocketSwift" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -455,7 +441,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 2.4.1;
+				MARKETING_VERSION = 2.4.2;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu99 gnu++11";
 				PRODUCT_BUNDLE_IDENTIFIER = com.biatoms.SocketSwift;
@@ -469,7 +455,7 @@
 			};
 			name = Release;
 		};
-		9DF883631F0CCAB60060C11F /* Debug */ = {
+		9DF883631F0CCAB60060C11F /* Debug configuration for PBXNativeTarget "SocketSwiftTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -491,7 +477,7 @@
 			};
 			name = Debug;
 		};
-		9DF883641F0CCAB60060C11F /* Release */ = {
+		9DF883641F0CCAB60060C11F /* Release configuration for PBXNativeTarget "SocketSwiftTests" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -519,28 +505,25 @@
 		9DF883451F0CCAB60060C11F /* Build configuration list for PBXProject "SocketSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DF8835D1F0CCAB60060C11F /* Debug */,
-				9DF8835E1F0CCAB60060C11F /* Release */,
+				9DF8835D1F0CCAB60060C11F /* Debug configuration for PBXProject "SocketSwift" */,
+				9DF8835E1F0CCAB60060C11F /* Release configuration for PBXProject "SocketSwift" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		9DF8835F1F0CCAB60060C11F /* Build configuration list for PBXNativeTarget "SocketSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DF883601F0CCAB60060C11F /* Debug */,
-				9DF883611F0CCAB60060C11F /* Release */,
+				9DF883601F0CCAB60060C11F /* Debug configuration for PBXNativeTarget "SocketSwift" */,
+				9DF883611F0CCAB60060C11F /* Release configuration for PBXNativeTarget "SocketSwift" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		9DF883621F0CCAB60060C11F /* Build configuration list for PBXNativeTarget "SocketSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DF883631F0CCAB60060C11F /* Debug */,
-				9DF883641F0CCAB60060C11F /* Release */,
+				9DF883631F0CCAB60060C11F /* Debug configuration for PBXNativeTarget "SocketSwiftTests" */,
+				9DF883641F0CCAB60060C11F /* Release configuration for PBXNativeTarget "SocketSwiftTests" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
